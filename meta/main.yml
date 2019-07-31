@@ -1,0 +1,21 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: elk-stack
+  owner: pajavyskocil
+  author: pajavyskocil
+  description: Logstahs-elasticsearch-kibana
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: Debian
+      versions:
+        - stretch
+        - buster
+  galaxy_tags:
+    - logstash
+    - elasticsearch
+    - kibana
+
+allow_duplicates: true
